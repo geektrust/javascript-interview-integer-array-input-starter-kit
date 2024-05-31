@@ -12,6 +12,6 @@ This is a skeleton project structure for problems that expects an integer array 
 ## Running the project
 
 - To run, issue the command `node . '<input>'` where  **input** is a valid input given in the problem statement.
-- For example: `node . '1 2 3 4 5 6 7'`
+- For example: `node . '[1, 2, 3, 4, 5, 6, 7]'`
 
 Note: Each full command should be wrapped in single quotes.
