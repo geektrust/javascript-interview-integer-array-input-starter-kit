@@ -9,7 +9,8 @@ function main() {
         throw new Error("No argument passed")
     }
     const arr = JSON.parse(input[0])
-    handle(arr)
+    const output = handle(arr)
+    console.log(output)
 }
 
 
@@ -18,8 +19,8 @@ function main() {
  * arr - Is an array of Integers
  */
 function handle(arr) {
-    console.log(arr)
-    //TODO: implement the logic to handle each input
+    //TODO: implement the logic to handle each input and return the final outuput
+    return arr
 }
 
 main()
